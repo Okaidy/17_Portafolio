@@ -1,0 +1,96 @@
+/* Inserte su codigo aqui */
+/*hacer el menu estatico*/
+nav {
+ 	width: 100%;
+  	position: fixed;
+  	z-index: 100;
+}
+.contenido {
+  	padding-top: 40px;
+}
+/*color para encabezado y menu*/
+.naranja{
+	background:#FFBF00;	
+}
+/*quita lo subrayado a los enlaces*/
+a{
+	text-decoration:none;
+}
+/*quita viñetas a listas*/
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+/*coloca los elementos de la lista a la izquierda*/
+li{
+	float: left;
+  	display: block;
+    padding:10px;
+}
+/*estilo boton*/
+.boton{
+	background-color: #DF7401;
+	width: 100px;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+/*largo de cabecera*/
+header{
+	height: 620px;
+}
+.blanca{
+	color: white;
+}
+/*estilo para letras header*/
+h1{
+	margin-top: 180px;
+}
+/*coloca hacia a derecha al menu*/
+.der{
+	float: right;
+}
+/*fondo de footer*/
+.gris{
+	background: #2E2E2E;
+}
+/*ancho de footer*/
+footer{
+	height: 100px;
+}
+footer ul{
+	margin-top: 40px;
+}
+/*fondo para article*/
+.fondo{
+	background:#E6E6E6;
+}
+/*color de fondo de ejemplos*/
+.white{
+	background:white;
+}
+/*margen de las primeras fotos*/
+.mgt{
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+.mgb{
+	margin-bottom: 10px;
+}
+/*tamaño de imagenes*/
+img{
+	width: 300px;
+	height: 300px;
+	margin-top: 30px;
+}
+/*color para texto gris*/
+.textgris{
+	color:#A4A4A4;
+}
+p{
+	text-align: justify;
+	margin-bottom: 5px;
+}
+/*centra botones*/
+.c{
+	margin: 0 auto;
+}
